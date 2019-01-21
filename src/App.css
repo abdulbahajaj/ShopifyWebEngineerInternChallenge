@@ -1,32 +1,67 @@
-.App {
+.header {
+  background-image: linear-gradient(to right, #1D5A91, #22955F);
+  height: 120px;
+  line-height: 120px;
+  width: 100%;
   text-align: center;
-}
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+.body {
+  padding: 25px; }
+  .body .searchWrapper {
+    text-align: center;
+    display: block;
+    position: relative;
+    height: 50px; }
+    .body .searchWrapper .text {
+      width: 90%;
+      height: 40px;
+      padding-left: 10px;
+      font-size: 20px;
+      float: left; }
+    .body .searchWrapper .searchButton {
+      float: left;
+      padding: 10px;
+      position: relative;
+      top: 1px;
+      margin-left: 10px;
+      color: #fff;
+      font-size: 24px;
+      background-color: #22955F;
+      cursor: pointer; }
+  .body .Results {
+    width: 100%;
+    height: 10px;
+    display: block;
+    padding-top: 8px; }
+    .body .Results .Result {
+      display: block;
+      width: 800px; }
+      .body .Results .Result .title {
+        width: 450px;
+        float: left; }
+        .body .Results .Result .title .star {
+          padding-right: 5px;
+          cursor: pointer;
+          color: #a4a7aa; }
+          .body .Results .Result .title .star.fav {
+            color: #27ae60; }
+      .body .Results .Result .description {
+        float: left;
+        width: 350px;
+        position: relative;
+        top: -16px; }
+        .body .Results .Result .description li {
+          padding-bottom: 10px; }
+    .body .Results .favs {
+      overflow: auto;
+      width: 100%; }
+      .body .Results .favs .sectionTitle {
+        font-size: 30px;
+        color: #22955F;
+        font-weight: bold;
+        padding-bottom: 20px; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */
