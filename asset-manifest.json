@@ -1,7 +1,7 @@
 {
   "main.css": "/ShopifyWebEngineerInternChallenge/static/css/main.2ae43a84.chunk.css",
-  "main.js": "/ShopifyWebEngineerInternChallenge/static/js/main.24230046.chunk.js",
-  "main.js.map": "/ShopifyWebEngineerInternChallenge/static/js/main.24230046.chunk.js.map",
+  "main.js": "/ShopifyWebEngineerInternChallenge/static/js/main.f5e7f9a7.chunk.js",
+  "main.js.map": "/ShopifyWebEngineerInternChallenge/static/js/main.f5e7f9a7.chunk.js.map",
   "static/js/1.a29941db.chunk.js": "/ShopifyWebEngineerInternChallenge/static/js/1.a29941db.chunk.js",
   "static/js/1.a29941db.chunk.js.map": "/ShopifyWebEngineerInternChallenge/static/js/1.a29941db.chunk.js.map",
   "runtime~main.js": "/ShopifyWebEngineerInternChallenge/static/js/runtime~main.0cb8b340.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/ShopifyWebEngineerInternChallenge/static/media/logo.5d5d9eef.svg",
   "static/css/main.2ae43a84.chunk.css.map": "/ShopifyWebEngineerInternChallenge/static/css/main.2ae43a84.chunk.css.map",
   "index.html": "/ShopifyWebEngineerInternChallenge/index.html",
-  "precache-manifest.0723a115bd568c80ab7f9265321f9afa.js": "/ShopifyWebEngineerInternChallenge/precache-manifest.0723a115bd568c80ab7f9265321f9afa.js",
+  "precache-manifest.2df2913b9193d4dafeb2d8d42875bf41.js": "/ShopifyWebEngineerInternChallenge/precache-manifest.2df2913b9193d4dafeb2d8d42875bf41.js",
   "service-worker.js": "/ShopifyWebEngineerInternChallenge/service-worker.js"
 }
