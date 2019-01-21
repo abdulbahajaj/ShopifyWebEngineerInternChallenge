@@ -39,6 +39,9 @@ class Result extends Component{
 
 class Results extends Component {
     render() {
+    	if(this.props.display.length == 0){
+    		return (<div>No results are available.</div>)
+    	}
     	var faved = [];
     	var notFaved = [];
     	this.props.display.map(function(item){
@@ -48,7 +51,6 @@ class Results extends Component {
     			notFaved.push(<Result key={item.id} item={item}/>)
     		}
     	})
-
     	return (
             <div className='Results'>
             	{notFaved}
