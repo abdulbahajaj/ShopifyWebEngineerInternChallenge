@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import APPManager from '../APPManager.js'
-var Parser = require('html-react-parser');
+import APPManager from '../APPManager.js';
+import Parser from 'html-react-parser';
 
 class Result extends Component{
 	constructor(props){
@@ -11,7 +11,7 @@ class Result extends Component{
 		APPManager.toggleFav(this.props.item.id);
 	}
 	render(){
-		var content = this.props.item.body;//"&lt;ul&gt; &lt;li&gt;Place item in the &lt;strong&gt;Garbage Bin.&lt;/strong&gt;&lt;/li&gt; &lt;/ul&gt;"
+		var content = this.props.item.body;
 		content = Parser(content)
 		console.log(this.props.item.faved)
 

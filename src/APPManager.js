@@ -21,7 +21,6 @@ const searchReducer = function(state, action){
 			state.data[action.id].faved = !state.data[action.id].faved;
 			break;
 	}
-	console.log(state)
 	return state
 }
 
@@ -68,8 +67,6 @@ axios({
 	url:'https://secure.toronto.ca/cc_sr_v1/data/swm_waste_wizard_APR?limit=1000',
 }).then(function(response) {
 	APPManager.setData(response.data)
-	APPManager.search("tag rubber")//rubber
-
 });
 
 
